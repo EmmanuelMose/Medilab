@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1758097964241,
+      "tag": "0000_same_talkback",
+      "breakpoints": true
+    }
+  ]
+}

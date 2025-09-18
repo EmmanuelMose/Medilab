@@ -8,7 +8,7 @@ import {
 } from "../../../../Features/prescriptions/prescriptionsAPI";
 import { FaEdit, FaClipboardList } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
-import UpdatePrescription from "./UpdatePrescriptions";
+import UpdatePrescription from "../../DoctorDashboard/prescriptions/UpdatePrescription";
 import DeletePrescription from "./DeletePrescriptions";
 import { Skeleton } from "../../../../components/ui/skeleton";
 

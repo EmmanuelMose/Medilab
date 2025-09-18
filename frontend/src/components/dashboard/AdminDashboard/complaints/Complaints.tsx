@@ -9,7 +9,7 @@ import { RiCheckboxCircleFill, RiCloseCircleFill } from "react-icons/ri";
 import { useState } from "react";
 import { Skeleton } from "../../../../components/ui/skeleton";
 import DeleteComplaint from "../complaints/DeleteComplaints";
-import UpdateComplaint from "../complaints/UpdateComplaint";
+import UpdateComplaint from "../../AdminDashboard/complaints/UpdateComplaints";
 
 const Complaints = () => {
   // fetch complaints

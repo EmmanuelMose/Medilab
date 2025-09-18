@@ -3,7 +3,7 @@ import { prescriptionsAPI, type TPrescription } from "../../../../Features/presc
 import { FaEdit, FaClipboardList, FaUserMd } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { useState } from "react";
-import UpdatePrescription from "./UpdatePrescription";
+import UpdatePrescription from "../../AdminDashboard/prescription/UpdatePrescription";
 import DeletePrescription from "./DeletePrescription";
 import { Skeleton } from "../../../../components/ui/skeleton";
 

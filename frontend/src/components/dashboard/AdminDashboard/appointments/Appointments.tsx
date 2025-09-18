@@ -13,7 +13,7 @@ import { MdDeleteForever, MdOutlinePendingActions } from "react-icons/md";
 import { RiCheckboxCircleFill, RiCloseCircleFill } from "react-icons/ri";
 import { useState } from "react";
 import UpdateAppointment from "./UpdateAppointments";
-import DeleteAppointment from "./DeleteAppointment";
+import DeleteAppointment from "../../AdminDashboard/appointments/DeleteAppointments";
 import CreateAppointment from "./CreateAppointments";
 import CreatePayment from "../appointments/CreatePayments";
 import { Skeleton } from "../../../../components/ui/skeleton";

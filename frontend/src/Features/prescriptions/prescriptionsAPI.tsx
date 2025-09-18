@@ -1,6 +1,6 @@
 // src/features/prescriptions/prescriptionsAPI.ts
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { ApiDomain } from "../../utilis/APIDomain";
+import { ApiDomain } from "../../utils/APIDomain";
 
 // Match your prescriptions table schema and backend response
 export type TPrescription = {

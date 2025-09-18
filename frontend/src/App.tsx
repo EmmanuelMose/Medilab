@@ -5,9 +5,9 @@ import { Toaster } from "sonner";
 import Register from "./pages/auth/Register";
 import VerifyUser from "./pages/auth/VerifyUser";
 import Login from "./pages/auth/Login";
-import Landingpage from "./pages/Landingpage";
+import Landingpage from "../../frontend/src/pages/LandingPage";
 import AboutPage from "./pages/AboutPage";
-import Profile from "./components/dashboard/UserDashboard/Profile";
+import Profile from "../../frontend/src/components/dashboard/UserDashboard/UserDashboard";
 
 // ===== Admin dashboard and pages =====
 import AdminDashboard from "./components/dashboard/AdminDashboard/AdminDashboard";
@@ -23,7 +23,7 @@ import AdminProfile from "./components/dashboard/AdminDashboard/Adminprofile";
 // ===== Doctor dashboard and pages =====
 import DoctorDashboard from "./components/dashboard/DoctorDashboard/DoctorDashboard";
 import DoctorAppointments from "./components/dashboard/DoctorDashboard/appointments/Appointments";
-import DoctorPrescriptions from "./components/dashboard/DoctorDashboard/prescriptions/Prescriptions";
+import DoctorPrescriptions from "../../frontend/src/components/dashboard/DoctorDashboard/prescriptions/Prescription";
 import DoctorProfile from "./components/dashboard/DoctorDashboard/profile";
 
 // ===== User dashboard and pages =====
@@ -32,7 +32,7 @@ import UserDoctors from "./components/dashboard/UserDashboard/doctor/Doctor";
 import UserAppointments from "./components/dashboard/UserDashboard/appointments/Appointments";
 import UserComplaints from "./components/dashboard/UserDashboard/complaints/Complaints";
 import UserPrescriptions from "./components/dashboard/UserDashboard/prescriptions/Prescriptions";
-import UserPayments from "./components/dashboard/UserDashboard/payments/Payments";
+import UserPayments from "../../frontend/src/components/dashboard/UserDashboard/payments/payments";
 
 function App() {
   return (

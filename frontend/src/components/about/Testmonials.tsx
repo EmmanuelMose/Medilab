@@ -1,4 +1,4 @@
-import { testimonialsData } from "./testimonialdata";
+import { testimonialsData } from "../../components/about/testmonialdata";
 
 const Testimonials = () => {
     return (

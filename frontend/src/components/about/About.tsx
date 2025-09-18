@@ -1,6 +1,6 @@
 // src/components/About.tsx
 
-import hospitalImage from '../../assets/images/';
+import hospitalImage from '../../../src/assets/images/hospital-about.jpg';
 import { Testimonials } from './index';
 import { motion } from 'framer-motion';
 import { FaUserShield, FaClock, FaHeartbeat, FaShieldAlt } from 'react-icons/fa';

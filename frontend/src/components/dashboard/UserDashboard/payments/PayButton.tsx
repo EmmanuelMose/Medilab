@@ -35,10 +35,10 @@ export default function PayButton({ appointmentId, amount, userId }: PayButtonPr
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Something went wrong.");
 
-      setMessage(`✅ ${data.CustomerMessage || "STK Push sent. Check your phone."}`);
+      setMessage(`${data.CustomerMessage || "STK Push sent. Check your phone."}`);
     } catch (error: any) {
       console.error("Payment error:", error);
-      setMessage(`❌ ${error.message}`);
+      setMessage(` ${error.message}`);
     } finally {
       setLoading(false);
     }

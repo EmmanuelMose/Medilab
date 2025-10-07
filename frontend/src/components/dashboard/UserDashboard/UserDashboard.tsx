@@ -3,7 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../../app/store";
 import { motion } from "framer-motion";
-import UserDrawer from "./aside/UserDrawer";
+import UserDrawer from "../UserDashboard/aside/UserData";
 import Navbar from "../../navbar/Navbar";
 import Footer from "../../footer/Footer";
 
